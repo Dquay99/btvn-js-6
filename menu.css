@@ -1,0 +1,23 @@
+.menu li {
+    list-style: none;
+}
+
+.menu li.item {
+    float: left;
+    margin-right: 25px;
+    position: relative;
+}
+
+.menu .item a {
+    text-decoration: none;
+}
+
+.submenu {
+    width: 300px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 21px;
+    background-color: #4b4b4b;
+    display: none;
+}
+
